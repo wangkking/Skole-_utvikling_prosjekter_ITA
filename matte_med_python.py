@@ -1,6 +1,6 @@
 
-høyden=str(input("Skriv høyden: "))
-bredden=str(input("skriv bredden: "))
+høyden=(input("Skriv høyden: "))
+bredden=(input("skriv bredden: "))
 
 areal = høyden*bredden
 omkrets= høyden*2+bredden+2
