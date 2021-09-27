@@ -6,14 +6,16 @@
         <title>Nettside</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
         
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
             body{
                 margin: 0; 
-                background-color: rgb(116, 114, 207);
             }
+			
+			.logo{
+				color: #1010EE;
+			}
             
             .Bakrund_A {
                 text-align: center;
@@ -24,14 +26,14 @@
                 box-sizing: border-box;
                 margin: 0;
                 padding: 0;
-                background-color: black;
+                background-color: whitesmoke;
             }
 
             li, a, button {
                 font-family: 'Noto Sans JP', sans-serif;
                 font-weight: 500;
                 font-size: 16px;
-                color: blanchedalmond;
+                color: rgb(31, 196, 25);
             }
 
             header{
@@ -60,10 +62,9 @@
 
             .nav_links li a:hover {
                 color: chartreuse;
-
             }
 
-            button {
+             button {
                 padding: 9px 25px;
                 background-color: cyan;
                 border: none;
@@ -77,15 +78,53 @@
                 background-color: coral;
 
             }
+			
+			.Bakrund_A {
+				width: auto;
+				border: 15px solid grey;
+				padding: auto;
+				margin: auto;
+			}
 
-            
+            .bilde_bokser{
+                display: flex;
+				justify-content: space-around;
+				background-color: aqua;
+                flex-direction: row;
+                align-items: center;
+            }
 
+            .boks_1_bilde {
+                background-color: crimson;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+                width: 50px;
+                
+
+            }
+
+            .boks_2_bilde {
+                background-color: crimson;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+                width: 30px;
+            }
+
+            .boks_3_bilde {
+                background-color: crimson;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
+                width: 30px;
+            }
 
         </style>
     </head>
-    <body>
-        <header class="nav_links">
-            <img class="logo" src="#" alt="logo">
+    <body class="side">
+        <header>
+            <h2 class="logo">Nettside Wang King</h2>
             <nav>
                 <ul class="navbar_A">
                     <li><a href="#home">Home</a></li>
@@ -97,9 +136,22 @@
         </header>
 
 
-
         <div class="Bakrund_A">
-           
+			<div class="Ovre_hovedside__side_1">
+                <div class="Bilde_bokser">
+                    <div class="boks_1_bilde">
+                        1
+                    </div>
+
+                    <div class="boks_2_bilde">
+                        2
+                    </div>
+                    
+                    <div class="boks_3_bilde">
+                        3
+                    </div>
+                </div>
+			</div>
         </div> 
     </body>
 </html>
